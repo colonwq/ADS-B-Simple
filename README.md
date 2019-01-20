@@ -4,7 +4,7 @@ A Simple ADS-B query and printing tool.
 ## Description
 This program will use the command line arguments or application defaults to query [ADS-B Excange](https://www.adsbexchange.com) for any airplanes near by. 
 
-The program defaults searches for planes within 20km of Dickinson, TX. This is a small town located south of the Houston Hobby Airport (HOU). 
+The program defaults searches for planes within 20NM of Dickinson, TX. This is a small town located south of the Houston Hobby Airport (HOU). 
 
 ## Examples
 ### Defaults
@@ -12,7 +12,7 @@ The program defaults searches for planes within 20km of Dickinson, TX. This is a
 go run adsb.go
 ```
 
-### Search for airplanes within 5km of LAX
+### Search for airplanes within 5NM of LAX
 ```
 go run adsb.go -lat 33.9416 -long -118.9416 -dist 5
 ```
